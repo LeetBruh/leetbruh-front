@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bunx nuxt build",
+    "dev": "bunx nuxt dev",
+    "generate": "bunx nuxt generate",
+    "preview": "bunx nuxt preview",
+    "postinstall": "bunx nuxt prepare"
+  },
+  "dependencies": {
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@nuxt/ui": "^2.15.2",
+    "@nuxt/ui-pro": "^1.1.0",
+    "@nuxtjs/i18n": "^8.3.1",
+    "@pinia/nuxt": "^0.5.1",
+    "codemirror": "^6.0.1",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.21",
+    "vue-codemirror": "^6.1.1",
+    "vue-router": "^4.3.0",
+    "yup": "^1.4.0"
+  }
+}
